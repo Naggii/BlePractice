@@ -1,13 +1,13 @@
 package com.example.blepractice
 
+import android.bluetooth.BluetoothGatt
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
-
-
+c
 class MainActivity : AppCompatActivity() {
 
-//    val BLE_UUID = "0x1816"
-//    val SERVICE_UUID = ""
+    val BLE_UUID = "0x1816"
+    val SERVICE_UUID = ""
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
